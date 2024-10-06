@@ -44,13 +44,13 @@ To get a local copy up and running, follow these steps:
 
 3. Set up environment variables: Create a .env file in the root directory and add your MongoDB connection string:
 
-```bash
-MONGODB_URI=your_mongodb_connection_string
+   ```bash
+   MONGODB_URI=your_mongodb_connection_string
 
 4. Run the development server:
 
-```bash
-npm run dev
+   ```bash
+   npm run dev
 
 
 Open your browser and go to http://localhost:3000 to see the app in action.
