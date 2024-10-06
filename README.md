@@ -35,27 +35,23 @@ To get a local copy up and running, follow these steps:
    ```bash
    git clone https://github.com/dejwid/food-ordering.git
    cd food-ordering
-Install dependencies:
 
-bash
-Copy code
-npm install
-Set up environment variables: Create a .env file in the root directory and add your MongoDB connection string:
 
-makefile
-Copy code
+
+2. Install dependencies:
+   ```bash
+   npm install
+
+3. Set up environment variables: Create a .env file in the root directory and add your MongoDB connection string:
+
+```bash
 MONGODB_URI=your_mongodb_connection_string
-Run the development server:
 
-bash
-Copy code
+4. Run the development server:
+
+```bash
 npm run dev
+
+
 Open your browser and go to http://localhost:3000 to see the app in action.
-
-Learn More
-To learn more about the technologies used, check out the following resources:
-
-Next.js Documentation - Learn about Next.js features and API.
-MongoDB Documentation - Understand how to interact with MongoDB.
-Tailwind CSS Documentation - Learn how to customize your styles.
 
